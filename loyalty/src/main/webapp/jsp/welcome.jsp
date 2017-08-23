@@ -70,7 +70,7 @@
   <div class="container">
       <!-- we actually have 2 forms in this page, first one is for search -->
       <form name="search" action="custsearch.jsp" method="post">
-        <h2>Welcome to the Loyalty Manager !!</h2>
+        <h2>Welcome to the Loyalty Manager !!!!</h2>
         <br></br>
         <div class="form-group col-xs-8">
           <label for="offer" class="control-label col-xs-4">Input Offer Criteria:</label>
