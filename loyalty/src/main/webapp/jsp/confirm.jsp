@@ -101,6 +101,7 @@
 
     // close the DB first
     st.close();
+	conn.close();
     // This is the most tricky party
     //
     // To send notification to MCS

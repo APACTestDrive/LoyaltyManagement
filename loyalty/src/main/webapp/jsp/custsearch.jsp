@@ -42,6 +42,7 @@
     }
     // again, we should close DB connection
     st.close();
+	conn.close();
   } catch (Exception e)
   { // same as welcome.jsp - to-do to put error message to backend
     out.println("Exception : " + e.getMessage() + "");
@@ -86,6 +87,7 @@
       out.println(">" + prod + "</option>");
     }
     st.close();
+	conn.close();
   } catch (Exception e)
   {
     out.println("Exception : " + e.getMessage() + "");

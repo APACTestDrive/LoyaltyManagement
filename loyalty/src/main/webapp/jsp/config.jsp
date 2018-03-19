@@ -70,6 +70,7 @@
     //
     // close the DB first
     st.close();
+	conn.close();
     } catch (Exception e)
     {
     // not a very good practice to print out error in webpage....
